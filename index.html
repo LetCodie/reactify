@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <title>Learing fullstack React</title>
     <style type="text/css">
       html,
@@ -21,7 +22,13 @@
   </head>
 <body>
 
-  <div id="app"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <div id="app"></div>
+      </div>
+    </div>
+  </div>
 
   <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
   <script src="lib/react.min.js" type="text/javascript"></script>
